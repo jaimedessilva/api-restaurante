@@ -1,0 +1,27 @@
+[
+  {
+    "id": "0",
+    "nome": "Prato 1",
+    "categoria": "Categoria 1"
+  },
+  {
+    "id": "1",
+    "nome": "Prato 2",
+    "categoria": "Categoria 2"
+  },
+  {
+    "id": "3",
+    "nome": "Prato 4",
+    "categoria": "Categoria 3"
+  },
+  {
+    "id": "4",
+    "nome": "Prato 5",
+    "categoria": "Categoria 5"
+  },
+  {
+    "id": "5",
+    "nome": "teste",
+    "categoria": "Categoria 5"
+  }
+]
