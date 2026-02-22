@@ -21,14 +21,14 @@ function writeDatabase(data) {
   fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
 }
 app.get('/', (req, res) => {
-  res.send(`API Restaurante Rodando!
-    Endpoints disponíveis:
-    - GET /categorias
-    - GET /categorias/:id
-    - GET /pratos
-    - GET /pratos/:id
-    - GET /categorias/:id/pratos
-    - POST /pedidos`);
+  res.send(`API Restaurante Rodando! <br/>
+    Endpoints disponíveis: <br/> 
+    - <a href="/categorias">GET /categorias</a> <br/> 
+    - <a href="/categorias/cat1">GET /categorias/:id</a> <br/> 
+    - <a href="/pratos">GET /pratos</a> <br/> 
+    - <a href="/pratos/prato4">GET /pratos/:id</a> <br/> 
+    - <a href="/categorias/1/pratos">GET /categorias/:id/pratos</a> <br/> 
+    - <a href="/pedidos">POST /pedidos</a>`);
 });
 
 /* Categorias */
