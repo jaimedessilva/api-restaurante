@@ -1,0 +1,114 @@
+{
+  "categorias": [
+    {
+      "id": "cat1",
+      "nome": "Entradas",
+      "descricao": "Para começar sua refeição",
+      "icone": "🥗",
+      "ordem": 1,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cat2",
+      "nome": "Pratos Principais",
+      "descricao": "Os favoritos da casa",
+      "icone": "🍖",
+      "ordem": 2,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cat3",
+      "nome": "Sobremesas",
+      "descricao": "Doces para adoçar seu dia",
+      "icone": "🍰",
+      "ordem": 3,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cat4",
+      "nome": "Bebidas",
+      "descricao": "Refresque-se",
+      "icone": "🥤",
+      "ordem": 4,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "pratos": [
+    {
+      "id": "prato1",
+      "nome": "Bruschetta Italiana",
+      "descricao": "Pão italiano tostado com tomate, manjericão e azeite",
+      "preco": 32.90,
+      "imagem": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f",
+      "categoriaId": "cat1",
+      "ingredientes": ["Pão italiano", "Tomate", "Manjericão", "Azeite", "Alho"],
+      "disponivel": true,
+      "destaque": true,
+      "tempoPreparo": 15,
+      "calorias": 280,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prato2",
+      "nome": "Filé Mignon ao Molho Madeira",
+      "descricao": "Filé mignon grelhado com molho madeira, acompanhado de legumes salteados",
+      "preco": 89.90,
+      "imagem": "https://images.unsplash.com/photo-1600891964092-4316c288032e",
+      "categoriaId": "cat2",
+      "ingredientes": ["Filé mignon", "Molho madeira", "Legumes", "Batatas"],
+      "disponivel": true,
+      "destaque": true,
+      "tempoPreparo": 30,
+      "calorias": 650,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prato3",
+      "nome": "Risoto de Funghi",
+      "descricao": "Cremoso risoto com mix de cogumelos e parmesão",
+      "preco": 58.90,
+      "imagem": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb",
+      "categoriaId": "cat2",
+      "ingredientes": ["Arroz arbóreo", "Cogumelos funghi", "Parmesão", "Vinho branco"],
+      "disponivel": true,
+      "destaque": false,
+      "tempoPreparo": 25,
+      "calorias": 520,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prato4",
+      "nome": "Tiramisu",
+      "descricao": "Sobremesa italiana clássica com café e mascarpone",
+      "preco": 28.90,
+      "imagem": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
+      "categoriaId": "cat3",
+      "ingredientes": ["Mascarpone", "Café", "Biscoito champagne", "Cacau"],
+      "disponivel": true,
+      "destaque": true,
+      "tempoPreparo": 10,
+      "calorias": 380,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prato5",
+      "nome": "Suco Detox",
+      "descricao": "Suco verde com couve, limão, gengibre e maçã",
+      "preco": 16.90,
+      "imagem": "https://images.unsplash.com/photo-1613478225610-9ad6d303e12a",
+      "categoriaId": "cat4",
+      "ingredientes": ["Couve", "Limão", "Gengibre", "Maçã", "Água de coco"],
+      "disponivel": true,
+      "destaque": false,
+      "tempoPreparo": 5,
+      "calorias": 120,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "pedidos": []
+}
