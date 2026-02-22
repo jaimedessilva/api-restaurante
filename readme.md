@@ -13,7 +13,11 @@ api-restaurante/
 
 ```
 npm init -y
-npm install express cors uuid
+npm install express tsx cors uuid
+npm install --save-dev typescript @types/node
+npm install --save-dev @types/express
+npm install --save-dev @types/cors
+npx tsc --init
 ```
 
 ### Como Rodar
